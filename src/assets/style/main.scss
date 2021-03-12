@@ -1,0 +1,15 @@
+$color : black;
+:export {
+  color: $color;
+}
+.app {
+  background: $color;
+}
+
+.header {
+  max-width: 1920px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 35px 140px;
+  justify-content: space-between;
+}
